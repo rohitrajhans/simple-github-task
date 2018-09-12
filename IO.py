@@ -1,5 +1,5 @@
 # Take input, print same.
-
+print("Hello User!!")
 in = str(raw_input("Enter value."))
 out = in
 print out
