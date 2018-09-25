@@ -1,0 +1,29 @@
+<html>
+<head>
+<style>
+body{ background-color:red;
+	}
+#ball {width:40px;
+	height:40px;
+	border-radius:50px;
+	background-color:white;
+	position: absolute;
+	left:46.5%;
+	top:30%;
+	transform:scale(1);
+	animation:cricketdown 4s infinite ;
+	}
+@keyframes cricketdown{
+	0%{top:50%; left:-20% ; animation-timing-function:ease-in; transform:scale(1);background-color:yellow;}
+	
+	100%{top:50%; left:120% ;transform:scale(3);background-color:blue;}
+}
+</style>
+</head>
+<body>
+
+<div id="ball">
+
+</div>
+</body>
+</html>
